@@ -87,6 +87,7 @@ if 'RDS_DB_NAME' in os.environ:
                 'HOST': os.environ['RDS_HOSTNAME'],
                 'PORT': os.environ['RDS_PORT'],
             }
+    }
 else:
 
     DATABASES = {
